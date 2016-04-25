@@ -1,0 +1,2 @@
+ip.dst==151.80.142.231 or ip.dst==151.80.142.231   - Filter traffic to particular source and destination IP Address
+ip.dst==151.80.142.231 and tcp.port==80 - Filter for destination IP and port
