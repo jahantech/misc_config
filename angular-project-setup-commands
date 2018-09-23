@@ -1,0 +1,59 @@
+#To create new project
+ng new blocker-app --routing
+
+
+#To create a new module
+cd blocker-app
+ng create module blocks --routing
+
+jahans@ubuntu /home/jahans/repos/blocker-app                          master
+⚡ ng generate service blocks/blocks
+CREATE src/app/blocks/blocks.service.spec.ts (333 bytes)
+CREATE src/app/blocks/blocks.service.ts (135 bytes)
+
+jahans@ubuntu /home/jahans/repos/blocker-app                        master
+⚡ ng generate component blocks/list
+CREATE src/app/blocks/list/list.component.css (0 bytes)
+CREATE src/app/blocks/list/list.component.html (23 bytes)
+CREATE src/app/blocks/list/list.component.spec.ts (614 bytes)
+CREATE src/app/blocks/list/list.component.ts (261 bytes)
+UPDATE src/app/app.module.ts (474 bytes)
+
+jahans@ubuntu /home/jahans/repos/blocker-app                        master
+⚡ ng generate component blocks/create
+CREATE src/app/blocks/create/create.component.css (0 bytes)
+CREATE src/app/blocks/create/create.component.html (25 bytes)
+CREATE src/app/blocks/create/create.component.spec.ts (628 bytes)
+CREATE src/app/blocks/create/create.component.ts (269 bytes)
+UPDATE src/app/app.module.ts (563 bytes)
+
+Directory Structure
+
+jahans@ubuntu /home/jahans/repos/blocker-app/src                    master
+⚡ tree -L 3 app
+app
+├── app.component.css
+├── app.component.html
+├── app.component.spec.ts
+├── app.component.ts
+├── app.module.ts
+├── app-routing.module.ts
+└── blocks
+    ├── blocks.module.spec.ts
+    ├── blocks.module.ts
+    ├── blocks-routing.module.ts
+    ├── blocks.service.spec.ts
+    ├── blocks.service.ts
+    ├── create
+    │   ├── create.component.css
+    │   ├── create.component.html
+    │   ├── create.component.spec.ts
+    │   └── create.component.ts
+    └── list
+        ├── list.component.css
+        ├── list.component.html
+        ├── list.component.spec.ts
+        └── list.component.ts
+
+3 directories, 19 files
+
